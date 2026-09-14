@@ -5,6 +5,19 @@ Click this link to go to the page version of this documentation: [Advanced Djang
 ---
 
 ## Markdown Cheat Sheet:
+```
+    # = Bigger Heading
+    ## = Smaller Heading
+    **e** = Bold
+    *e* = Italic
+    [text](url) = Hyperlink
+    ![alt](image) = Image
+    `text`= Code
+    - Thing 1 = Unordered List/Bulleted List
+    1. Thing 1 = Ordered List/Numbered List
+    > Words = Blockquote
+    --- = Horizontal Rule/Line
+``` 
 
 ## Command Line:
 
