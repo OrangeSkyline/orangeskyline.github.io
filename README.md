@@ -4,6 +4,8 @@ Click this link to go to the page version of this documentation: [Advanced Djang
 
 ---
 
+## Markdown Cheat Sheet:
+
 ## Command Line:
 
 ## Python Cheat Sheet Comparisons:
