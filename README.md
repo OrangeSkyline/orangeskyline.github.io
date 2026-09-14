@@ -6,11 +6,11 @@ Click this link to go to the page version of this documentation: [Advanced Djang
 
 ## Python Cheat Sheet Comparisons:
 1. C++
---- Test
+
 2. C#
---- Test
+
 3. Java
---- Test
+
 ## Django Framework & Setup:
 
 ## Git/GitHub Development Environment:
