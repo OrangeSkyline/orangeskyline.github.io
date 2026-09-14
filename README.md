@@ -13,7 +13,7 @@ If on GitHub, please click this link to go to the page version of this documenta
 - ![Silver SUV](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTFstbf22H156QSR9N_Lo64AzqUswLFjcylvEEZGDMszw&s) = `![Description of Image]](website.com/image.jpg)`
 - `Code` =  \`Code`
 - - Thing 1 =  `- Thing 1`
-- 1. Thing 1 =  `1. Ordered List/Numbered List`
+- 1. Thing 1 =  `1. Thing 1`
 - > Words = `> Blockquote`
 - `--- Horizontal Line`
 ---
