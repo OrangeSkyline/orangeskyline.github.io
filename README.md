@@ -15,8 +15,8 @@ If on GitHub, please click this link to go to the page version of this documenta
 - - Thing 1 =  `- Thing 1`
 - 1. Thing 1 =  `1. Ordered List/Numbered List`
 - > Words = `> Blockquote`
----
 - `--- Horizontal Line`
+---
 
 ## Command Line:
 
