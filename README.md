@@ -17,7 +17,7 @@ If on GitHub, please click this link to go to the page version of this documenta
 
 ## Markdown Cheat Sheet:
 - # Bigger Heading =  `# Bigger Heading`
-- ## Smaller Heading =  `## Smaller Heading`
+- ## Smaller Heading =  `## Smaller Heading` (These can go as small as 6 #'s)
 - **Bold** =  `**Bold**`
 - *Italic* =  `*Italic*` 
 - [Hyperlink](https://example.com/) =  `[Hyperlink](https://example.com/)`
