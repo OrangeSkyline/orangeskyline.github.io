@@ -27,7 +27,7 @@ If on GitHub, please click this link to go to the page version of this documenta
 - `Code` =  \`Code`
 - - Thing 1 =  `- Thing 1`
 - 1. Thing 1 =  `1. Thing 1`
-- > Words = `> Blockquote`
+- > Words = `> Words`
 - `--- Horizontal Line`
 ---
 
