@@ -1,4 +1,5 @@
  # add this line to the plugins list if you already have one
-title: "Advanced Django Project"
+title: [Advanced Django Project]
 tagline: "Documentation for Django Group Project"
+remote-theme: pages-themes/midnight@v0.2.0
 description: "This repository + Github Page will display our documentation throughout the process & production of our Django project."
