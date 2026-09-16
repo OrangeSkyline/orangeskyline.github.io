@@ -9,6 +9,9 @@ If on GitHub, please click this link to go to the page version of this documenta
 1. [Markdown Cheat Sheet](https://orangeskyline.github.io/#markdown-cheat-sheet) 
 2. [Command Line](https://orangeskyline.github.io/#command-line) 
 3. [Python Cheat Sheet Comparisons](https://orangeskyline.github.io/#python-cheat-sheet-comparisons)
+    - [C++](https://orangeskyline.github.io/#CPlusPlus)
+    - [C#](https://orangeskyline.github.io/#CSharp)
+    - [Java](https://orangeskyline.github.io/#java)
 4. [Django Framework & Setup](https://orangeskyline.github.io/#django-framework--setup)
 5. [Git/GitHub Development Environment](https://orangeskyline.github.io/#gitgithub-development-environment)
 6. [HTML](https://orangeskyline.github.io/#html)
@@ -34,11 +37,11 @@ If on GitHub, please click this link to go to the page version of this documenta
 # Command Line:
 
 # Python Cheat Sheet Comparisons:
-1. **C++**
+1. <p id="CPlusPlus"><strong>C++</strong></p>
 
-2. **C#**
+2. <p id="CSharp"><strong>C#</strong></p>
 
-3. **Java**
+3. <p id="Java"><strong>Java</strong></p>
 
 # Django Framework & Setup:
 
