@@ -11,7 +11,7 @@ If on GitHub, please click this link to go to the page version of this documenta
 3. [Python Cheat Sheet Comparisons](https://orangeskyline.github.io/#python-cheat-sheet-comparisons)
     - [C++](https://orangeskyline.github.io/#CPlusPlus)
     - [C#](https://orangeskyline.github.io/#CSharp)
-    - [Java](https://orangeskyline.github.io/#java)
+    - [Java](https://orangeskyline.github.io/#Java)
 4. [Django Framework & Setup](https://orangeskyline.github.io/#django-framework--setup)
 5. [Git/GitHub Development Environment](https://orangeskyline.github.io/#gitgithub-development-environment)
 6. [HTML](https://orangeskyline.github.io/#html)
