@@ -1,7 +1,7 @@
 <link rel="stylesheet" href="style.css">
 
 ### Welcome!
-This is the start of our Documentation Page! We are [Alex](https://github.com/OrangeSkyline), [Aaron](https://github.com/Zoidster), [Admir](https://github.com/admirsmajic0), [Arieana](https://github.com/atrevizo), [Kingston](https://github.com/KafoolsDelDoe), [Nick](https://github.com/Nicobotic1), and [Richard](https://github.com/richard-RRL)!
+This is the start of our Documentation Page! We are [Aaron](https://github.com/Zoidster), [Alex](https://github.com/OrangeSkyline), [Admir](https://github.com/admirsmajic0), [Arieana](https://github.com/atrevizo), [Kingston](https://github.com/KafoolsDelDoe), [Nick](https://github.com/Nicobotic1), and [Richard](https://github.com/richard-RRL)!
 If you'd like, click this link to view the website version of this documentation: [Documentation Page](https://orangeskyline.github.io)
 
 ---
