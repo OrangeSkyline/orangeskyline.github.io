@@ -1,4 +1,3 @@
-YAML
 <link rel="stylesheet" href="style.css">
 
 # Django Overview

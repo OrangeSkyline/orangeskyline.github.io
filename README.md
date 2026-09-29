@@ -12,7 +12,7 @@ If you'd like, click this link to view the website version of this documentation
    - [C++](#CPlusPlus)
    - [C#](#CSharp)
    - [Java](#Java)
-4. <a href="extraMDFiles/DjangoFrameworkOverview.md">Django Framework &amp; Setup</a>
+4. <a href="https://orangeskyline.github.io/extraMDFiles/DjangoFrameworkOverview.md">Django Framework &amp; Setup</a>
 5. <a href="#gitgithub-development-environment">Git/GitHub Development Environment</a>
 6. <a href="#html">HTML</a>
 7. <a href="#accessibility">Accessibility</a>
