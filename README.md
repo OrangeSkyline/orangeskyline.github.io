@@ -6,19 +6,19 @@ If you'd like, click this link to view the website version of this documentation
 
 ---
 # Table of Contents:
-1. <a href="#markdown-cheat-sheet">Markdown Cheat Sheet</a>
-2. <a href="#command-line">Command Line</a>
-3. <a href="#python-cheat-sheet-comparisons">Python Cheat Sheet Comparisons</a>
-   - [C++](#CPlusPlus)
-   - [C#](#CSharp)
-   - [Java](#Java)
-4. <a href="https://orangeskyline.github.io/extraMDFiles/DjangoFrameworkOverview.md">Django Framework &amp; Setup</a>
-5. <a href="#gitgithub-development-environment">Git/GitHub Development Environment</a>
-6. <a href="#html">HTML</a>
-7. <a href="#accessibility">Accessibility</a>
-8. <a href="#css-w-bootstrap">CSS w/ Bootstrap</a>
-9. <a href="#python-virtual-environments">Python Virtual Environment</a>
-10. <a href="#python-packages--dependencies">Python Packages &amp; Dependencies</a>
+1. <a href="#markdown-cheat-sheet">Markdown Cheat Sheet(Alex)</a>
+2. <a href="#command-line">Command Line(Richard)</a>
+3. <a href="#python-cheat-sheet-comparisons">Python Cheat Sheet Comparisons(Kingston)</a>
+   - [C++(Aaron)](#CPlusPlus)
+   - [C#(Alex)](#CSharp)
+   - [Java(Kingston)](#Java)
+4. <a href="https://orangeskyline.github.io/extraMDFiles/DjangoFrameworkOverview.md">Django Framework &amp; Setup(Nick)</a>
+5. <a href="#gitgithub-development-environment">Git/GitHub Development Environment(Alex)</a>
+6. <a href="#html">HTML(Admir)</a>
+7. <a href="#accessibility">Accessibility(Kingston)</a>
+8. <a href="#css-w-bootstrap">CSS w/ Bootstrap(Aaron)</a>
+9. <a href="#python-virtual-environments">Python Virtual Environment(Arieana)</a>
+10. <a href="#python-packages--dependencies">Python Packages &amp; Dependencies(Alex)</a>
 
 # Markdown Cheat Sheet:
 - # Bigger Heading =  `# Bigger Heading`
