@@ -8,12 +8,16 @@ a{
 p{
     color: white;
 }
-table{
+li{
     color: white;
 }
-thead{
+blockquote{
+    color: white;
+}
+code{
+    background-color: rgb(43, 43, 43);
     color: white;
 }
 tr{
-    color: white;
+    color: black
 }
