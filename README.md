@@ -34,7 +34,7 @@ If you'd like, click this link to view the website version of this documentation
 - `--- Horizontal Line`
 ---
 
-- | Name | Age |      
+  | Name | Age |      
   |------|-----|
   | John | 30  |
   | Jane | 25  |
