@@ -28,6 +28,8 @@ This is the start of our Documentation Page! We are [Aaron](https://github.com/Z
 
 # Markdown Cheat Sheet:
 
+<p><strong>Section by Alexander Cranford</strong></p>
+
 - # Bigger Heading = `# Bigger Heading`
 - ## Smaller Heading = `## Smaller Heading` (These can go as small as heading 6, which is 6 #'s)
 - **Bold** = `**Bold**`
