@@ -1,21 +1,21 @@
-body{
-    background-color: rgb(43, 43, 43);
-    color: white;
+body {
+  background-color: rgb(43, 43, 43);
+  color: white;
 }
-a{
-    color: rgb(74, 159, 255);
+a {
+  color: rgb(74, 159, 255);
 }
-p{
-    color: white;
+p {
+  color: white;
 }
-li{
-    color: white;
+li {
+  color: white;
 }
-blockquote{
-    color: white;
+blockquote {
+  color: white;
 }
-code{
-    background-color: black;
+code {
+  background-color: black;
 }
 
 table {
@@ -89,31 +89,31 @@ tfoot td {
 }
 
 #navbar.horizontal {
-    list-style-type: none;
-    padding: 0;
-    overflow: hidden;
-    background-color: transparent;
-    display: flex;
-    gap: 4px;
+  list-style-type: none;
+  padding: 0;
+  overflow: hidden;
+  background-color: transparent;
+  display: flex;
+  gap: 4px;
 }
 
 #navbar.horizontal li {
-    margin: 0;
+  margin: 0;
 }
 
 #navbar.horizontal li a {
-    display: block;
-    padding: 14px;
-    color: white;
-    background-color: rgb(74, 159, 255);
-    text-align: center;
-    text-decoration: none;
+  display: block;
+  padding: 14px;
+  color: white;
+  background-color: rgb(74, 159, 255);
+  text-align: center;
+  text-decoration: none;
 }
 
 #navbar.horizontal li a:hover {
-    background-color: rgb(49, 133, 229);
+  background-color: rgb(49, 133, 229);
 }
 
 #navbar.horizontal li a.active {
-    background-color: rgb(74, 159, 255);
+  background-color: rgb(74, 159, 255);
 }
