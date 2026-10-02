@@ -1,3 +1,5 @@
+<a class="page-button" href="https://github.com/OrangeSkyline/orangeskyline.github.io">Visit On GitHub</a>
+
 ### Welcome!
 
 This is the start of our Documentation Page! We are [Aaron](https://github.com/Zoidster), [Alex](https://github.com/OrangeSkyline), [Admir](https://github.com/admirsmajic0), [Arieana](https://github.com/atrevizo), [Kingston](https://github.com/KafoolsDelDoe), [Nick](https://github.com/Nicobotic1), and [Richard](https://github.com/richard-RRL)!
