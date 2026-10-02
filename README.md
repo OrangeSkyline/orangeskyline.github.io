@@ -36,10 +36,24 @@ If you'd like, click this link to view the website version of this documentation
 
 ---
 
-  | Name | Age |      
-  |------|-----|
-  | John | 30  |
-  | Jane | 25  |
+   <table>
+      <thead>
+        <tr>
+          <th>Name</th>
+          <th>Age</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>John</td>
+          <td>30</td>
+        </tr>
+        <tr>
+          <td>Jane</td>
+          <td>25</td>
+        </tr>
+      </tbody>
+   </table>
 
    <h3>Table = (Make sure to separate the lines above and below the table by one blank line)</h3>
 
