@@ -231,6 +231,7 @@ Adds a CSS transition and animation effect when sliding from one item to the nex
 
 ### Buttons
 `<button type="button" class="btn btn-primary">Primary</button>`
+
 <img src="images/Button.PNG" alt="An example of a Button">
 
 Buttons are singlet components on the page that can link to content on other pages or the same page
@@ -251,7 +252,7 @@ Buttons are singlet components on the page that can link to content on other pag
 
 Drop down are components that when clicked provide multiple selectable options that navigate the page(s)
 
-### Accessibility
+## Accessibility
 
 Bootstrap includes built-in accessibility features to help make websites usable for people with disabilities. Use semantic HTML, proper labels, and Bootstrap’s accessibility classes and attributes where needed.
 
