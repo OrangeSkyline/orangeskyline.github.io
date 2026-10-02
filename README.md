@@ -397,6 +397,7 @@ Responsive design is a design methodology that accounts for the differences in l
 ## Navigation/Components (BOOTSTRAP)
 
 ### Nav Menus
+
 ```<ul class="nav">
   <li class="nav-item">
 	<a class="nav-link" href="#">Link</a>
@@ -418,6 +419,7 @@ Responsive design is a design methodology that accounts for the differences in l
 Simple menus that allow for direct navigation can be made in the form of menus and bars.
 
 ### Buttons
+
 `<button type="button" class="btn btn-primary">Primary</button>`
 
 <img src="images/Button.PNG" alt="An example of a Button">
@@ -425,6 +427,7 @@ Simple menus that allow for direct navigation can be made in the form of menus a
 Buttons are singlet components on the page that can link to content on other pages or the same page
 
 ### Drop Downs
+
 ```<div class="dropdown">
   <button type="button" class="btn btn-primary dropdown-toggle" data-bs-toggle="dropdown">
 	Dropdown button
@@ -436,6 +439,7 @@ Buttons are singlet components on the page that can link to content on other pag
   </ul>
 </div> 
 ```
+
 <img src="images/DropDown.PNG" alt="An example of a Drop Down Menu">
 
 Drop down are components that when clicked provide multiple selectable options that navigate the page(s)
@@ -474,6 +478,7 @@ Drop down are components that when clicked provide multiple selectable options t
   </button>
 </div>
 ```
+
 <img src="images/Carousel.PNG" alt="An example of a Carousel">
 
 A rotating collection of images and content on the page that can be navigated.
