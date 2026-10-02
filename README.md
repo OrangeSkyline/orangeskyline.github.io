@@ -167,9 +167,10 @@ Responsive design is a design methodology that accounts for the differences in l
   </li>
 </ul>
 ```
-Simple menus that allow for direct navigation can be made in the form of menus and bars.
 
 <img src="images/NavMenu.PNG" alt="Selector Nav menu with Link Link Link Disabled">
+
+Simple menus that allow for direct navigation can be made in the form of menus and bars.
 
 ### Carousel
 
@@ -228,8 +229,31 @@ Used together with .carousel-control-next to create a "next" button
 ##### .slide
 Adds a CSS transition and animation effect when sliding from one item to the next. 
 
+### Buttons
+`<button type="button" class="btn btn-primary">Primary</button>`
+<img src="images/Button.PNG" alt="An example of a Button">
 
+Buttons are singlet components on the page that can link to content on other pages or the same page
 
+### Drop Downs
+```<div class="dropdown">
+  <button type="button" class="btn btn-primary dropdown-toggle" data-bs-toggle="dropdown">
+	Dropdown button
+  </button>
+  <ul class="dropdown-menu">
+	<li><a class="dropdown-item" href="#">Link 1</a></li>
+	<li><a class="dropdown-item" href="#">Link 2</a></li>
+	<li><a class="dropdown-item" href="#">Link 3</a></li>
+  </ul>
+</div> 
+```
+<img src="images/DropDown.PNG" alt="An example of a Drop Down Menu">
+
+Drop down are components that when clicked provide multiple selectable options that navigate the page(s)
+
+### Accessibility
+
+Bootstrap includes built-in accessibility features to help make websites usable for people with disabilities. Use semantic HTML, proper labels, and Bootstrap’s accessibility classes and attributes where needed.
 
 # Python Virtual Environments:
 
