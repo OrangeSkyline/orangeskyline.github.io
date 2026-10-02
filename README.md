@@ -207,6 +207,29 @@ Simple menus that allow for direct navigation can be made in the form of menus a
 ```
 <img src="images/Carousel.PNG" alt="An example of a Carousel">
 
+A rotating collection of images and content on the page that can be navigated.
+
+##### .carousel
+Creates a carousel
+##### .carousel-indicators
+Adds indicators for the carousel.
+##### .carousel-inner
+Adds slides to the carousel
+##### .carousel-item
+Specifies the content of each slide
+##### .carousel-control-prev
+Adds a left button to the carousel
+##### .carousel-control-next
+Adds a right button to the carousel
+##### .carousel-control-prev-icon
+Used together with .carousel-control-prev to create a "previous" button
+##### .carousel-control-next-icon
+Used together with .carousel-control-next to create a "next" button
+##### .slide
+Adds a CSS transition and animation effect when sliding from one item to the next. 
+
+
+
 
 # Python Virtual Environments:
 
