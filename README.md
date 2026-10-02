@@ -74,47 +74,83 @@ If you'd like, click this link to view the website version of this documentation
 
 #### Python
 
+Variables in Python are declared implicitly via specifying the variable name and giving a value, with the type inference.
+
 #### C++
+
+Variables in C++ are declared via specifying the type for the variable, the variable name, then an =, then the value for that variable.
 
 
 ### Headers/Comments
 
 #### Python
 
+Comments in Python can be made using the # symbol
+
 #### C++
 
+Comments in C++ can be made using two slashes in the manner of // for a single line and /* for multiple lines.
 
 ### Libraries
 
 #### Python
 
+Libraries in Python are accessed using the import keyword followed by the library name. They are also refered to as modules
+
 #### C++
+
+Libraries in C++ can be accessed via what is called a ‘header file.’ This is done by using a # sign, then the keyword include followed by 
+(If the header is a standard C++ header) the header name in <> brackets
+Ex: `#include <iostream>`
+(If the header name is a user made file) the name of the header file and its path relative to the directory being executed from
+Ex: #include "path/to/my_header.h"
 
 
 ### Functions
 
 #### Python
 
+Functions in python can be defined via the def keyword then followed by the function name with its arguments given in () with their type if needed followed by a : 
+Brackets are not required and function bodies are determined via spacing
+
+
 #### C++
 
+Functions in C++ can be defined via specifying a return type, or void for no return type, then a name for the function followed by its arguments given in () with their type if needed then {} disclose the body of the function
 
 ### Loops
 
 #### Python
 
+Loops in python include the for loop and the while loop
+
+For loop: Defined via the keywords for i in range, then () with the first argument is the lowest count and the second argument is the highest count. The highest count will decrement to the lowest over the course of the loop automatically
+While loop: Defined via the keyword while, then () with the first argument is the lowest count and the second argument is the highest count. The user has to choose how to decrement the counter within the loop body. Then it is ended with a : and the body is indicated via spacing
+
+
 #### C++
+
+Loops in C++ include the for loop, the while loop, and the do-while loop
+
+For loop: Defined via the keyword for, then in () separated by ; the variable that will be the counter, the condition for when it should exit the loop, then the means of change on the counter, then {} disclose the body of the loop
+While loop: Defined via the keyword while, then in () a counter/condition is given that is typically modified within the body of the loop, once satisfied the loop terminates
+Do-While loop: Defined via the keyword do then {} for the body of the loop which usually contains a way to modify the loop counter, then a while keyword, then in () a counter/condition that terminates the loop once satisfied. This allows the loop to execute once even if the condition is satisfied.
 
 
 ### Classes
 
 #### Python
 
+Classes in python are defined via the class keyword, then a class name, then a : and then the class body is disclosed via spacing. A constructor for the class can be defined as a function def __init__(self,
+
 #### C++
 
+Classes in C++ are defined via the class keyword, then a class name, then, within () are arguments to the class with their variable type, then {} denote the body of the class. Then within the body both member variables and member functions can be defined within its public and private tags which disclose which members can be accessed via instantiation of the class. The class can be instantiated as with any other variable type and arguments can be passed in accordance with the classes valid constructors.
 
-2. <p id="CSharp"><strong>C#</strong></p>
 
-3. <p id="Java"><strong>Java</strong></p>
+## 2. <p id="CSharp"><strong>C#</strong></p>
+
+## 3. <p id="Java"><strong>Java</strong></p>
 
 # Django Overview:
 
