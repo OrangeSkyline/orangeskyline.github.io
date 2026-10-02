@@ -92,17 +92,19 @@ tfoot td {
     padding: 0;
     overflow: hidden;
     background-color: transparent;
+    display: flex;
+    gap: 4px;
 }
 
 #navbar.horizontal li {
-    float: left;
+    float: none;
 }
 
 #navbar.horizontal li a {
     display: inline-block;
     color: white;
     text-align: center;
-    padding: 14px 16px;
+    padding: 14px 14px;
     text-decoration: none;
 }
 
