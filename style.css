@@ -34,21 +34,31 @@ caption {
 
 thead,
 tfoot {
-  background-color: rgb(228 240 245);
+  background-color: rgb(59 66 82);
 }
 
 th,
 td {
   border: 1px solid rgb(160 160 160);
   padding: 8px 10px;
+  color: rgb(255 255 255);
 }
 
 td:last-of-type {
   text-align: center;
 }
 
-tbody > tr:nth-of-type(even) {
-  background-color: rgb(237 238 242);
+.markdown-body table thead tr,
+.markdown-body table tfoot tr {
+  background-color: rgb(59 66 82);
+}
+
+.markdown-body table tbody tr:nth-of-type(odd) {
+  background-color: rgb(43 43 43);
+}
+
+.markdown-body table tbody tr:nth-of-type(even) {
+  background-color: rgb(55 55 55);
 }
 
 tfoot th {
@@ -62,16 +72,16 @@ tfoot td {
 .markdown-body .highlight,
 .markdown-body .highlight pre,
 .markdown-body pre {
-  background-color: black;
+  background-color: rgb(22 27 34);
   color: white;
 }
 
 .markdown-body pre code {
-  background-color: white;
-  color: black;
+  background-color: transparent;
+  color: white;
 }
 
 .markdown-body table {
-  width: fit-content;
+  width: 100%;
   max-width: 100%;
 }

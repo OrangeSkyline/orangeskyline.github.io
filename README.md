@@ -98,11 +98,7 @@ Make sure you have compatible up to date versions of both Python and Django.
       <tbody>
         <tr>
           <td>Path to directory</td>
-          <td>
-          ```
-          "C:\Users\Richa\Downloads"
-          ```
-          </td>
+          <td><code>"C:\Users\Richa\Downloads"</code></td>
           <td><img src="images/CMDFileLocEX.png" alt="Simple annotated guide showing one way to find a folder's address path">
           How to find your directory path
           You can also "copy address" from your file explorer's top bar that shows the current path</td>
