@@ -40,7 +40,7 @@ If you'd like, click this link to view the website version of this documentation
   | John | 30  |
   | Jane | 25  |
 
-   ### Table = (Make sure to separate lines by one blank line)
+   <h3>Table = (Make sure to separate lines by one blank line)</h3>
 
    ```
    | Name | Age |
