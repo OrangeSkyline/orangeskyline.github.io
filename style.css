@@ -67,7 +67,7 @@ tfoot td {
 }
 
 .markdown-body pre code {
-  background-color: transparent;
+  background-color: black;
   color: white;
 }
 
