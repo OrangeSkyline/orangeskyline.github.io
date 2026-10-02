@@ -442,11 +442,15 @@ CSS can be defined in a .css file as a style sheet. To link CSS it is done with 
 
 ### BOOTSTRAP
 
-`<div class="container mt-5">
+```
+<div class="container mt-5">
     <div class="row">
-        <div class="col-sm-4">`
+        <div class="col-sm-4">
+```
 
-`<link href="BOOTSTRAP_CSS_URL" rel="stylesheet">`
+```
+<link href="BOOTSTRAP_CSS_URL" rel="stylesheet">
+```
 
 ## Containers/Grid (BOOTSTRAP)
 
@@ -492,7 +496,9 @@ Simple menus that allow for direct navigation can be made in the form of menus a
 
 ### Buttons
 
-`<button type="button" class="btn btn-primary">Primary</button>`
+```
+<button type="button" class="btn btn-primary">Primary</button>
+```
 
 <img src="images/Button.PNG" alt="An example of a Button">
 
