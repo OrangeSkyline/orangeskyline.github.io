@@ -398,7 +398,8 @@ Responsive design is a design methodology that accounts for the differences in l
 
 ### Nav Menus
 
-```<ul class="nav">
+```
+<ul class="nav">
   <li class="nav-item">
 	<a class="nav-link" href="#">Link</a>
   </li>
