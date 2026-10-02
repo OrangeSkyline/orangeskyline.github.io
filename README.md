@@ -105,8 +105,30 @@ Make sure you have compatible up to date versions of both Python and Django.
         </tr>
         <tr>
           <td>cd “path to directory”</td>
-          <td>`cd "C:\Users\Richa\Downloads"`</td>
+          <td><code>cd "C:\Users\Richa\Downloads"</code></td>
           <td>This opens command line to that specific folder for further commands</td>
+        </tr>
+        <tr>
+          <td>git commit -m "Your message"</td>
+          <td><code>git commit -m "This is my latest update."</code></td>
+          <td>Allows you to select what folder you are saving to with a note describing the save straight to the GitHub repository</td>
+        </tr>
+        <tr>
+          <td>git push origin "branch-name"</td>
+          <td><code>git push origin main .</code></td>
+          <td>This pushes the save to the online repository for web access to the repository/backup</td>
+        </tr>
+        <tr>
+          <td>py …</td>
+          <td><code>py --version</code></td>
+          <td>This performs a command referring to the current version of python installed on the computer.
+          ie. This command will bring up the current version of python.</td>
+        </tr>
+        <tr>
+          <td>git …</td>
+          <td><code>git init</code></td>
+          <td>Git performs a command using the current version of git installed to the machine.
+          ie. This command initializes the current folder with the necessary files for a local Git repository.</td>
         </tr>
       </tbody>
    </table>
@@ -432,23 +454,17 @@ Bootstrap is a large collection of pre-written CSS and JavaScript that allows fo
 
 <img src="images/CSS setup.PNG" alt="Selector {property:value; property:value}">
 
-```
-<link rel="stylesheet" href="style.css">
-```
+`<link rel="stylesheet" href="style.css">`
 
 CSS can be defined in a .css file as a style sheet. To link CSS it is done with the above `<link>` tag with the href attribute telling where to find the CSS file, The document holds different declarations about how the HTML elements in question should be styled via a selector which represents the element, then a key value pair that defines the specifics of the change being undertaken. CSS can be defined in a separate file or written in-document with the HTML.
 
 ### BOOTSTRAP
 
-```
-<div class="container mt-5">
+`<div class="container mt-5">
     <div class="row">
-        <div class="col-sm-4">
-```
+        <div class="col-sm-4">`
 
-```
-<link href="BOOTSTRAP_CSS_URL" rel="stylesheet">
-```
+`<link href="BOOTSTRAP_CSS_URL" rel="stylesheet">`
 
 ## Containers/Grid (BOOTSTRAP)
 
@@ -494,9 +510,7 @@ Simple menus that allow for direct navigation can be made in the form of menus a
 
 ### Buttons
 
-```
-<button type="button" class="btn btn-primary">Primary</button>
-```
+`<button type="button" class="btn btn-primary">Primary</button>`
 
 <img src="images/Button.PNG" alt="An example of a Button">
 
