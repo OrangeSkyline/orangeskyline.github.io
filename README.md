@@ -23,7 +23,7 @@ If you'd like, click this link to view the website version of this documentation
 
 # Markdown Cheat Sheet:
 - # Bigger Heading =  `# Bigger Heading`
-- ## Smaller Heading =  `## Smaller Heading` (These can go as small as 6 #'s)
+- ## Smaller Heading =  `## Smaller Heading` (These can go as small as heading 6, which is 6 #'s)
 - **Bold** =  `**Bold**`
 - *Italic* =  `*Italic*` 
 - [Hyperlink](https://example.com/) =  `[Hyperlink](https://example.com/)`
