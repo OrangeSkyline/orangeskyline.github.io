@@ -432,7 +432,8 @@ Bootstrap is a large collection of pre-written CSS and JavaScript that allows fo
 
 <img src="images/CSS setup.PNG" alt="Selector {property:value; property:value}">
 
-`<link rel="stylesheet" href="style.css">`
+```
+<link rel="stylesheet" href="style.css">```
 
 CSS can be defined in a .css file as a style sheet. To link CSS it is done with the above `<link>` tag with the href attribute telling where to find the CSS file, The document holds different declarations about how the HTML elements in question should be styled via a selector which represents the element, then a key value pair that defines the specifics of the change being undertaken. CSS can be defined in a separate file or written in-document with the HTML.
 
