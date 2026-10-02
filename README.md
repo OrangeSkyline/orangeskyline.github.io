@@ -68,7 +68,7 @@ If you'd like, click this link to view the website version of this documentation
 # Command Line:
 
 # Python Cheat Sheet Comparisons:
-## 1. <p id="CPlusPlus"><strong>C++</strong></p>
+1. <p id="CPlusPlus"><strong>C++</strong></p>
 
 ### Variables and Declaration
 
@@ -315,9 +315,9 @@ int main() {
 Classes in C++ are defined via the `class` keyword, then a class name, then, within () are arguments to the class with their variable type, then {} denote the body of the class. Then within the body both member variables and member functions can be defined within its public and private tags which disclose which members can be accessed via instantiation of the class. The class can be instantiated as with any other variable type and arguments can be passed in accordance with the classes valid constructors.
 
 
-## 2. <p id="CSharp"><strong>C#</strong></p>
+2. <p id="CSharp"><strong>C#</strong></p>
 
-## 3. <p id="Java"><strong>Java</strong></p>
+3. <p id="Java"><strong>Java</strong></p>
 
 # Django Overview:
 
