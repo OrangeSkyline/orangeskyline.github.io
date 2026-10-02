@@ -62,7 +62,7 @@ tfoot td {
 .markdown-body .highlight,
 .markdown-body .highlight pre,
 .markdown-body pre {
-  background-color: rgb(43, 43, 43);
+  background-color: black;
   color: white;
 }
 
