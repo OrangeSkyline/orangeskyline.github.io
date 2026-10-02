@@ -1,6 +1,6 @@
 <ul id="navbar" class="horizontal">
   <li><a class="active" href="https://github.com/OrangeSkyline/orangeskyline.github.io" target="_blank" rel="noopener noreferrer">View On GitHub</a></li>
-  <li><a class="active" href="https://orangeskyline.github.io"target="_blank" rel="noopener noreferrer">View On Page</a></li>
+  <li><a class="active" href="https://orangeskyline.github.io" target="_blank" rel="noopener noreferrer">View On Page</a></li>
 </ul>
 
 ### Welcome!
