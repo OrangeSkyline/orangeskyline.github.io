@@ -82,8 +82,10 @@ tfoot td {
 }
 
 .markdown-body table {
+  display: table;
   width: auto;
   max-width: 100%;
+  overflow: visible;
 }
 
 #navbar.horizontal {
