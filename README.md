@@ -147,6 +147,28 @@ Containers are used to pad the content inside of them. Fluid containers are a re
 
 The grid system allows for even spacing of elements across the span of a page for the organization of information and content
 To link BOOSTRAP, it is done with the above `<link>` tag with the href attribute pointing to the bootstrap version in use. Once done classes from BOOTSTRAP can be used via inserting `<div>` tags and instantiating the classes within them such that they apply to the children. 
+## Responsive Design (BOOTSTRAP)
+Responsive design is a design methodology that accounts for the differences in layout and size of webpages across different devices. This is a major element of bootstraps design philosophy. 
+## Navigation/Components (BOOTSTRAP)
+
+`<ul class="nav">
+  <li class="nav-item">
+	<a class="nav-link" href="#">Link</a>
+  </li>
+  <li class="nav-item">
+	<a class="nav-link" href="#">Link</a>
+  </li>
+  <li class="nav-item">
+	<a class="nav-link" href="#">Link</a>
+  </li>
+  <li class="nav-item">
+	<a class="nav-link disabled" href="#">Disabled</a>
+  </li>
+</ul>
+`
+
+<img src="images/NavMenu.PNG" alt="Selector Nav menu with Link Link Link Disabled">
+
 # Python Virtual Environments:
 
 # Python Packages & Dependencies:
