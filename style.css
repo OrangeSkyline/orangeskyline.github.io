@@ -67,8 +67,8 @@ tfoot td {
 }
 
 .markdown-body pre code {
-  background-color: black;
-  color: white;
+  background-color: white;
+  color: black;
 }
 
 .markdown-body table {
