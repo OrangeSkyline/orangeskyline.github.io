@@ -151,7 +151,7 @@ To link BOOSTRAP, it is done with the above `<link>` tag with the href attribute
 Responsive design is a design methodology that accounts for the differences in layout and size of webpages across different devices. This is a major element of bootstraps design philosophy. 
 ## Navigation/Components (BOOTSTRAP)
 
-`<ul class="nav">
+```<ul class="nav">
   <li class="nav-item">
 	<a class="nav-link" href="#">Link</a>
   </li>
@@ -165,7 +165,8 @@ Responsive design is a design methodology that accounts for the differences in l
 	<a class="nav-link disabled" href="#">Disabled</a>
   </li>
 </ul>
-`
+```
+
 
 <img src="images/NavMenu.PNG" alt="Selector Nav menu with Link Link Link Disabled">
 
