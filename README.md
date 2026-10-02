@@ -417,6 +417,29 @@ Responsive design is a design methodology that accounts for the differences in l
 
 Simple menus that allow for direct navigation can be made in the form of menus and bars.
 
+### Buttons
+`<button type="button" class="btn btn-primary">Primary</button>`
+
+<img src="images/Button.PNG" alt="An example of a Button">
+
+Buttons are singlet components on the page that can link to content on other pages or the same page
+
+### Drop Downs
+```<div class="dropdown">
+  <button type="button" class="btn btn-primary dropdown-toggle" data-bs-toggle="dropdown">
+	Dropdown button
+  </button>
+  <ul class="dropdown-menu">
+	<li><a class="dropdown-item" href="#">Link 1</a></li>
+	<li><a class="dropdown-item" href="#">Link 2</a></li>
+	<li><a class="dropdown-item" href="#">Link 3</a></li>
+  </ul>
+</div> 
+```
+<img src="images/DropDown.PNG" alt="An example of a Drop Down Menu">
+
+Drop down are components that when clicked provide multiple selectable options that navigate the page(s)
+
 ### Carousel
 
 ```
@@ -473,29 +496,6 @@ Used together with .carousel-control-prev to create a "previous" button
 Used together with .carousel-control-next to create a "next" button
 ##### .slide
 Adds a CSS transition and animation effect when sliding from one item to the next. 
-
-### Buttons
-`<button type="button" class="btn btn-primary">Primary</button>`
-
-<img src="images/Button.PNG" alt="An example of a Button">
-
-Buttons are singlet components on the page that can link to content on other pages or the same page
-
-### Drop Downs
-```<div class="dropdown">
-  <button type="button" class="btn btn-primary dropdown-toggle" data-bs-toggle="dropdown">
-	Dropdown button
-  </button>
-  <ul class="dropdown-menu">
-	<li><a class="dropdown-item" href="#">Link 1</a></li>
-	<li><a class="dropdown-item" href="#">Link 2</a></li>
-	<li><a class="dropdown-item" href="#">Link 3</a></li>
-  </ul>
-</div> 
-```
-<img src="images/DropDown.PNG" alt="An example of a Drop Down Menu">
-
-Drop down are components that when clicked provide multiple selectable options that navigate the page(s)
 
 ## Accessibility
 
