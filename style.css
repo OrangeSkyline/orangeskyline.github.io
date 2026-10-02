@@ -100,15 +100,16 @@ tfoot td {
 }
 
 #navbar.horizontal li a {
-    display: inline-block;
+    display: block;
+    padding: 14px;
     color: white;
+    background-color: rgb(74, 159, 255);
     text-align: center;
-    padding: 14px 14px;
     text-decoration: none;
 }
 
-#navbar.horizontal li a:hover:not(.active) {
-    background-color: #000;
+#navbar.horizontal li a:hover {
+    background-color: rgb(49, 133, 229);
 }
 
 #navbar.horizontal li a.active {
