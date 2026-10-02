@@ -126,7 +126,7 @@ Libraries in Python are accessed using the `import` keyword followed by the libr
 #include "math_utils.h"  // Custom header file wrapped in quotes
 ```
 
-Libraries in C++ can be accessed via what is called a ‘header file.’ This is done by using a # sign, then the keyword `include` followed by 
+Libraries in C++ can be accessed via what is called a header file. This is done by using a # sign, then the keyword `include` followed by 
 
 (If the header is a standard C++ header) the header name in <> brackets
 Ex: `#include <iostream>`
