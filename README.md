@@ -95,11 +95,11 @@ Comments in C++ can be made using two slashes in the manner of // for a single l
 
 #### Python
 
-Libraries in Python are accessed using the import keyword followed by the library name. They are also refered to as modules
+Libraries in Python are accessed using the `import` keyword followed by the library name. They are also refered to as modules
 
 #### C++
 
-Libraries in C++ can be accessed via what is called a ‘header file.’ This is done by using a # sign, then the keyword include followed by 
+Libraries in C++ can be accessed via what is called a ‘header file.’ This is done by using a # sign, then the keyword `include` followed by 
 (If the header is a standard C++ header) the header name in <> brackets
 Ex: `#include <iostream>`
 
@@ -111,7 +111,7 @@ Ex: `#include "path/to/my_header.h"`
 
 #### Python
 
-Functions in python can be defined via the def keyword then followed by the function name with its arguments given in () with their type if needed followed by a : 
+Functions in python can be defined via the `def` keyword then followed by the function name with its arguments given in () with their type if needed followed by a : 
 Brackets are not required and function bodies are determined via spacing
 
 
@@ -125,20 +125,20 @@ Functions in C++ can be defined via specifying a return type, or void for no ret
 
 Loops in python include the for loop and the while loop
 
-For loop: Defined via the keywords for i in range, then () with the first argument is the lowest count and the second argument is the highest count. The highest count will decrement to the lowest over the course of the loop automatically
+For loop: Defined via the keywords `for i in range`, then () with the first argument is the lowest count and the second argument is the highest count. The highest count will decrement to the lowest over the course of the loop automatically
 
-While loop: Defined via the keyword while, then () with the first argument is the lowest count and the second argument is the highest count. The user has to choose how to decrement the counter within the loop body. Then it is ended with a : and the body is indicated via spacing
+While loop: Defined via the keyword `while`, then () with the first argument is the lowest count and the second argument is the highest count. The user has to choose how to decrement the counter within the loop body. Then it is ended with a : and the body is indicated via spacing
 
 
 #### C++
 
 Loops in C++ include the for loop, the while loop, and the do-while loop
 
-For loop: Defined via the keyword for, then in () separated by ; the variable that will be the counter, the condition for when it should exit the loop, then the means of change on the counter, then {} disclose the body of the loop
+For loop: Defined via the keyword `for`, then in () separated by ; the variable that will be the counter, the condition for when it should exit the loop, then the means of change on the counter, then {} disclose the body of the loop
 
-While loop: Defined via the keyword while, then in () a counter/condition is given that is typically modified within the body of the loop, once satisfied the loop terminates
+While loop: Defined via the keyword `while`, then in () a counter/condition is given that is typically modified within the body of the loop, once satisfied the loop terminates
 
-Do-While loop: Defined via the keyword do then {} for the body of the loop which usually contains a way to modify the loop counter, then a while keyword, then in () a counter/condition that terminates the loop once satisfied. This allows the loop to execute once even if the condition is satisfied.
+Do-While loop: Defined via the keyword `do` then {} for the body of the loop which usually contains a way to modify the loop counter, then a while keyword, then in () a counter/condition that terminates the loop once satisfied. This allows the loop to execute once even if the condition is satisfied.
 
 
 ### Classes
