@@ -12,13 +12,14 @@ If you'd like, click this link to view the website version of this documentation
    - [C++(Aaron)](#CPlusPlus)
    - [C#(Alex)](#CSharp)
    - [Java(Kingston)](#Java)
-4. <a href="https://orangeskyline.github.io/extraMDFiles/DjangoFrameworkOverview.md">Django Framework &amp; Setup(Nick)</a>
-5. <a href="#gitgithub-development-environment">Git/GitHub Development Environment(Alex)</a>
-6. <a href="#html">HTML(Admir)</a>
-7. <a href="#accessibility">Accessibility(Kingston)</a>
-8. <a href="#css-w-bootstrap">CSS w/ Bootstrap(Aaron)</a>
-9. <a href="#python-virtual-environments">Python Virtual Environment(Arieana)</a>
-10. <a href="#python-packages--dependencies">Python Packages &amp; Dependencies(Alex)</a>
+4. <a href="#django-overview">Django Overview &amp; (Nick)</a>
+5. <a href="#setting-up-django">Setting Up Django &amp; (Nick)</a>
+6. <a href="#gitgithub-development-environment">Git/GitHub Development Environment(Alex)</a>
+7. <a href="#html">HTML(Admir)</a>
+8. <a href="#accessibility">Accessibility(Kingston)</a>
+9. <a href="#css-w-bootstrap">CSS w/ Bootstrap(Aaron)</a>
+10. <a href="#python-virtual-environments">Python Virtual Environment(Arieana)</a>
+11. <a href="#python-packages--dependencies">Python Packages &amp; Dependencies(Alex)</a>
 
 # Markdown Cheat Sheet:
 - # Bigger Heading =  `# Bigger Heading`
@@ -57,7 +58,37 @@ If you'd like, click this link to view the website version of this documentation
 
 3. <p id="Java"><strong>Java</strong></p>
 
-# Django Framework & Setup:
+# Django Overview:
+
+Section by Nick Larsen
+
+### What is Django?
+
+Django is a Python framework that we can use to help us build web applications. Django does a lot of the heavy lifting in creating the backends of web applications. This allows us to focus our attention on design and process.
+
+### Why would want to use Django?
+
+- Django can help build secure and scalable websites quickly.
+
+- Django does a lot of the heavy lifting for the backend of a website / web application.
+
+- Django is free.
+
+- Django is open source.
+
+- Django uses python.
+
+### What are some websites that were built using Django?
+
+1. Instagram 
+
+2. Spotify
+
+3. The Washington Post
+
+# Setting up Django
+
+Section by Nick Larsen
 
 # Git/GitHub Development Environment:
 
