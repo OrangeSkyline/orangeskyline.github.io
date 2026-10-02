@@ -1,5 +1,6 @@
 <!--Had to add <style> into .md because style.css was not displaying this-->
 <style>
+
 #navbar.horizontal {
     list-style-type: none;
     margin: 0;
@@ -27,7 +28,9 @@
 #navbar.horizontal li a.active {
     background-color: rgb(74, 159, 255);
 }
+
 </style>
+
 <ul id="navbar" class="horizontal">
   <li><a class="active" href="https://github.com/OrangeSkyline/orangeskyline.github.io">View On GitHub</a></li>
   <li><a class="active" href="https://orangeskyline.github.io">View On Page</a></li>
