@@ -85,16 +85,3 @@ tfoot td {
   width: 100%;
   max-width: 100%;
 }
-
-.page-button {
-  display: inline-block;
-  padding: 0.6rem 1rem;
-  border-radius: 6px;
-  background: #4a9fff;
-  color: white;
-  text-decoration: none;
-}
-
-.page-button:hover {
-  background: #246fc4;
-}

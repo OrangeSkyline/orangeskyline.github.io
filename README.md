@@ -1,9 +1,41 @@
-<a class="page-button" href="https://github.com/OrangeSkyline/orangeskyline.github.io">Visit On GitHub</a>
+<!--Had to add <style> into .md because style.css was not displaying this-->
+<style>
+#navbar.horizontal {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: transparent;
+}
+
+#navbar.horizontal li {
+    float: left;
+}
+
+#navbar.horizontal li a {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+#navbar.horizontal li a:hover:not(.active) {
+    background-color: #000;
+}
+
+#navbar.horizontal li a.active {
+    background-color: rgb(74, 159, 255);
+}
+</style>
+<ul id="navbar" class="horizontal">
+  <li><a class="active" href="https://github.com/OrangeSkyline/orangeskyline.github.io">View On GitHub</a></li>
+  <li><a class="active" href="https://orangeskyline.github.io">View On Page</a></li>
+</ul>
 
 ### Welcome!
 
 This is the start of our Documentation Page! We are [Aaron](https://github.com/Zoidster), [Alex](https://github.com/OrangeSkyline), [Admir](https://github.com/admirsmajic0), [Arieana](https://github.com/atrevizo), [Kingston](https://github.com/KafoolsDelDoe), [Nick](https://github.com/Nicobotic1), and [Richard](https://github.com/richard-RRL)!
-If you'd like, click this link to view the website version of this documentation: [Documentation Page](https://orangeskyline.github.io)
 
 ---
 
