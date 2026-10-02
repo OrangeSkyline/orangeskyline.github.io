@@ -68,7 +68,7 @@ If you'd like, click this link to view the website version of this documentation
 # Command Line:
 
 # Python Cheat Sheet Comparisons:
-1. <p id="CPlusPlus"><strong>C++</strong></p>
+## 1. <p id="CPlusPlus"><strong>C++</strong></p>
 
 ### Variables and Declaration
 
