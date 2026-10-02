@@ -137,6 +137,15 @@ CSS can be defined in a .css file as a style sheet. To link CSS it is done with 
 
 `<link href="BOOTSTRAP_CSS_URL" rel="stylesheet">`
 
+## Containers/Grid (BOOTSTRAP)
+
+### Containers
+Containers are used to pad the content inside of them. Fluid containers are a responsive design element that adjust to screen width across devices and platforms. Containers can be colored, bordered, buffered, styled, and change the aesthetics of their text
+### Grid
+
+<img src="images/Grid.PNG" alt="Selector Image showing combinations of spans using the grid system ranging from span 4+8 to span 12*">
+
+The grid system allows for even spacing of elements across the span of a page for the organization of information and content
 To link BOOSTRAP, it is done with the above `<link>` tag with the href attribute pointing to the bootstrap version in use. Once done classes from BOOTSTRAP can be used via inserting `<div>` tags and instantiating the classes within them such that they apply to the children. 
 # Python Virtual Environments:
 
