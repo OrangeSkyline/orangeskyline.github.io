@@ -116,6 +116,8 @@ Section by Nick Larsen
 ## What is it?
 
 ### CSS
+<img src="images/CSS setup.png" alt="A car">
+
 CSS is a language used for the stylization of webpages on top of base HTML. It can be applied across multiple pages using a style sheet. A style sheet is a pre-defined CSS file that defines declarations that can be used on the different selected elements in HTML to change aspects like their alignment, color, font, size, and many other aesthetic aspects.
 ### BOOTSTRAP
 Bootstrap is a large collection of pre-written CSS and JavaScript that allows for the quick application of styling, layouts, and interactive components to webpages like buttons. 
@@ -125,7 +127,7 @@ Bootstrap is a large collection of pre-written CSS and JavaScript that allows fo
 ### CSS
 CSS can be defined in a .css file as a style sheet. To link CSS it is done with the above `<link>` tag with the href attribute telling where to find the CSS file, The document holds different declarations about how the HTML elements in question should be styled via a selector which represents the element, then a key value pair that defines the specifics of the change being undertaken. CSS can be defined in a separate file or written in-document with the HTML. 
 ### BOOTSTRAP
-To link BOOSTRAP, it is done with the above `<link>` tag with the href attribute pointing to the bootstrap version in use. Once done classes from BOOTSTRAP can be used via inserting `<div> `tags and instantiating the classes within them such that they apply to the children. 
+To link BOOSTRAP, it is done with the above `<link>` tag with the href attribute pointing to the bootstrap version in use. Once done classes from BOOTSTRAP can be used via inserting `<div>` tags and instantiating the classes within them such that they apply to the children. 
 # Python Virtual Environments:
 
 # Python Packages & Dependencies:
