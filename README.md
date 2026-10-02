@@ -70,6 +70,48 @@ If you'd like, click this link to view the website version of this documentation
 # Python Cheat Sheet Comparisons:
 1. <p id="CPlusPlus"><strong>C++</strong></p>
 
+### Variables and Declaration
+
+#### Python
+
+#### C++
+
+
+### Headers/Comments
+
+#### Python
+
+#### C++
+
+
+### Libraries
+
+#### Python
+
+#### C++
+
+
+### Functions
+
+#### Python
+
+#### C++
+
+
+### Loops
+
+#### Python
+
+#### C++
+
+
+### Classes
+
+#### Python
+
+#### C++
+
+
 2. <p id="CSharp"><strong>C#</strong></p>
 
 3. <p id="Java"><strong>Java</strong></p>
