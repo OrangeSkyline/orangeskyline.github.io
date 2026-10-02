@@ -499,7 +499,7 @@ Drop down are components that when clicked provide multiple selectable options t
 
 ## Accessibility
 
-Bootstrap includes built-in accessibility features to help make websites usable for people with disabilities. Use semantic HTML, proper labels, and Bootstrap’s accessibility classes and attributes where needed.
+Bootstrap includes built-in accessibility features to help make websites usable for people with disabilities. Use semantic HTML, proper labels, and Bootstraps accessibility classes and attributes where needed.
 
 # Python Virtual Environments:
 
