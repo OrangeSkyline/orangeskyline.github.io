@@ -116,7 +116,7 @@ Section by Nick Larsen
 ## What is it?
 
 ### CSS
-<img src="images/CSS setup.png" alt="Selector {property:value; property:value">
+<img src="images/CSS setup.PNG" alt="Selector {property:value; property:value}">
 
 CSS is a language used for the stylization of webpages on top of base HTML. It can be applied across multiple pages using a style sheet. A style sheet is a pre-defined CSS file that defines declarations that can be used on the different selected elements in HTML to change aspects like their alignment, color, font, size, and many other aesthetic aspects.
 ### BOOTSTRAP
