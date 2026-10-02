@@ -95,6 +95,10 @@ tfoot td {
     gap: 4px;
 }
 
+#navbar.horizontal li {
+    margin: 0;
+}
+
 #navbar.horizontal li a {
     display: block;
     padding: 14px;
