@@ -472,7 +472,7 @@ Drop down are components that when clicked provide multiple selectable options t
   <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
 	<span class="carousel-control-next-icon"></span>
   </button>
-</div
+</div>
 ```
 <img src="images/Carousel.PNG" alt="An example of a Carousel">
 
