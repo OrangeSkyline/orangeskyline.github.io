@@ -70,249 +70,249 @@ If you'd like, click this link to view the website version of this documentation
 # Python Cheat Sheet Comparisons:
 1. <p id="CPlusPlus"><strong>C++</strong></p>
 
-    ### Variables and Declaration
+### Variables and Declaration
 
-    #### Python
-    ```
-    age = 25          # Automatically created as an integer
-    salary = 50000.5  # Automatically created as a float
-    ```
+#### Python
+```
+age = 25          # Automatically created as an integer
+salary = 50000.5  # Automatically created as a float
+```
 
-    Variables in Python are declared implicitly via specifying the variable name and giving a value, with the type inference.
+Variables in Python are declared implicitly via specifying the variable name and giving a value, with the type inference.
 
-    #### C++
-    ```
-    int age = 25;             // Explicitly declared as an integer
-    double salary = 50000.5;  // Explicitly declared as a floating-point
-    ```
+#### C++
+```
+int age = 25;             // Explicitly declared as an integer
+double salary = 50000.5;  // Explicitly declared as a floating-point
+```
 
-    Variables in C++ are declared via specifying the type for the variable, the variable name, then an =, then the value for that variable.
-
-
-    ### Headers/Comments
-
-    #### Python
-    ```
-    # This is a python comment
-    ```
-
-    Comments in Python can be made using the # symbol
-
-    #### C++
-    ```
-    // This is a C++ comment
-    ```
-
-    Comments in C++ can be made using two slashes in the manner of // for a single line and /* for multiple lines.
-
-    ### Libraries
-
-    #### Python
-    ```
-    # main.py
-    # Standard library module providing access to system-specific functions and variables
-    import sys
-
-    # Custom local module (math_utils.py) containing mathematical helper functions
-    import math_utils
-    ```
-
-    Libraries in Python are accessed using the `import` keyword followed by the library name. They are also refered to as modules
-
-    #### C++
-    ```
-    // main.cpp
-    #include <iostream>      // Standard library header for input/output streams
-    #include "math_utils.h"  // Custom header file wrapped in quotes
-    ```
-
-    Libraries in C++ can be accessed via what is called a header file. This is done by using a # sign, then the keyword `include` followed by 
-
-    (If the header is a standard C++ header) the header name in <> brackets
-    Ex: `#include <iostream>`
-
-    (If the header name is a user made file) the name of the header file and its path relative to the directory being executed from
-    Ex: `#include "path/to/my_header.h"`
+Variables in C++ are declared via specifying the type for the variable, the variable name, then an =, then the value for that variable.
 
 
-    ### Functions
+### Headers/Comments
 
-    #### Python
-    ```
-    def add(x, y):
-        return x + y
-    ```
+#### Python
+```
+# This is a python comment
+```
 
-    Functions in python can be defined via the `def` keyword then followed by the function name with its arguments given in () with their type if needed followed by a : 
-    Brackets are not required and function bodies are determined via spacing
+Comments in Python can be made using the # symbol
+
+#### C++
+```
+// This is a C++ comment
+```
+
+Comments in C++ can be made using two slashes in the manner of // for a single line and /* for multiple lines.
+
+### Libraries
+
+#### Python
+```
+# main.py
+# Standard library module providing access to system-specific functions and variables
+import sys
+
+# Custom local module (math_utils.py) containing mathematical helper functions
+import math_utils
+```
+
+Libraries in Python are accessed using the `import` keyword followed by the library name. They are also refered to as modules
+
+#### C++
+```
+// main.cpp
+#include <iostream>      // Standard library header for input/output streams
+#include "math_utils.h"  // Custom header file wrapped in quotes
+```
+
+Libraries in C++ can be accessed via what is called a header file. This is done by using a # sign, then the keyword `include` followed by 
+
+(If the header is a standard C++ header) the header name in <> brackets
+Ex: `#include <iostream>`
+
+(If the header name is a user made file) the name of the header file and its path relative to the directory being executed from
+Ex: `#include "path/to/my_header.h"`
 
 
-    #### C++
-    ```
-    int add(int x, int y) {
-        return x + y;
+### Functions
+
+#### Python
+```
+def add(x, y):
+    return x + y
+```
+
+Functions in python can be defined via the `def` keyword then followed by the function name with its arguments given in () with their type if needed followed by a : 
+Brackets are not required and function bodies are determined via spacing
+
+
+#### C++
+```
+int add(int x, int y) {
+    return x + y;
+}
+```
+
+Functions in C++ can be defined via specifying a return type, or void for no return type, then a name for the function followed by its arguments given in () with their type if needed then {} disclose the body of the function
+
+### Loops
+
+#### Python
+```
+# For loop: Iterates over a sequence (0 to 4)
+for i in range(5):
+    print(i)
+
+# While loop: Runs as long as a condition is true
+count = 0
+while count < 5:
+    print(count)
+    count += 1
+```
+
+Loops in python include the for loop and the while loop
+
+##### For loop: 
+Defined via the keywords `for i in range`, then () with the first argument is the lowest count and the second argument is the highest count. The highest count will decrement to the lowest over the course of the loop automatically
+
+##### While loop: 
+Defined via the keyword `while`, then () with the first argument is the lowest count and the second argument is the highest count. The user has to choose how to decrement the counter within the loop body. Then it is ended with a : and the body is indicated via spacing
+
+
+#### C++
+```
+// For loop: Initializes, checks condition, and increments
+for (int i = 0; i < 5; i++) {
+    std::cout << i << "\n";
+}
+
+// While loop: Runs as long as the condition is true
+int count = 0;
+while (count < 5) {
+    std::cout << count << "\n";
+    count++;
+}
+```
+
+Loops in C++ include the for loop, the while loop, and the do-while loop
+
+##### For loop: 
+Defined via the keyword `for`, then in () separated by ; the variable that will be the counter, the condition for when it should exit the loop, then the means of change on the counter, then {} disclose the body of the loop
+
+##### While loop: 
+Defined via the keyword `while`, then in () a counter/condition is given that is typically modified within the body of the loop, once satisfied the loop terminates
+
+##### Do-While loop: 
+Defined via the keyword `do` then {} for the body of the loop which usually contains a way to modify the loop counter, then a while keyword, then in () a counter/condition that terminates the loop once satisfied. This allows the loop to execute once even if the condition is satisfied.
+
+
+### Classes
+
+#### Python
+```
+class Car:
+    # The constructor runs automatically whenever a new Car object is created.
+    # "self" refers to the specific Car object being created.
+    # "brand: str" and "year: int" are type hints telling us what kind
+    # of values we expect to receive.
+    def __init__(self, brand: str, year: int):
+
+        # Store the brand inside this particular Car object.
+        # "self.brand" is an instance variable, meaning every Car object
+        # gets its own separate brand value.
+        self.brand = brand
+
+        # The double underscore makes this attribute "private-like."
+        # Python uses name mangling here, so it is not intended to be
+        # accessed directly outside of the class.
+        self.__year = year
+
+    # A method is a function that belongs to a class.
+    # "self" allows this method to access data belonging to the object
+    # that called it.
+    def display_info(self):
+
+        # Access the object's brand and year and display them.
+        # The f-string lets us insert variable values directly into the text.
+        print(f"Car: {self.brand}, Year: {self.__year}")
+
+
+# Create a new Car object.
+# "Toyota" is passed to the "brand" parameter.
+# 2024 is passed to the "year" parameter.
+my_car = Car("Toyota", 2024)
+
+# Call the display_info() method belonging to our Car object.
+# This prints the information stored inside "my_car."
+my_car.display_info()
+```
+
+Classes in python are defined via the `class` keyword, then a class name, then a : and then the class body is disclosed via spacing. A constructor for the class can be defined as a function `def __init__(self`,
+
+#### C++
+```
+#include <iostream>  // Provides std::cout and std::endl for displaying output.
+#include <string>    // Provides the std::string data type.
+
+class Car {
+private:
+    // This variable stores the year of the car.
+    // "private" means code outside of the Car class cannot directly
+    // access this variable.
+    int year;
+
+public:
+    // This variable stores the brand of the car.
+    // "public" means code outside of the class CAN directly access it.
+    std::string brand;
+
+    // Constructor:
+    // This function automatically runs when a new Car object is created.
+    //
+    // "b" receives the car's brand.
+    // "y" receives the car's year.
+    //
+    // The constructor then stores those values in the object's
+    // "brand" and "year" variables.
+    Car(std::string b, int y) {
+        brand = b;
+        year = y;
     }
-    ```
 
-    Functions in C++ can be defined via specifying a return type, or void for no return type, then a name for the function followed by its arguments given in () with their type if needed then {} disclose the body of the function
-
-    ### Loops
-
-    #### Python
-    ```
-    # For loop: Iterates over a sequence (0 to 4)
-    for i in range(5):
-        print(i)
-
-    # While loop: Runs as long as a condition is true
-    count = 0
-    while count < 5:
-        print(count)
-        count += 1
-    ```
-
-    Loops in python include the for loop and the while loop
-
-    ##### For loop: 
-    Defined via the keywords `for i in range`, then () with the first argument is the lowest count and the second argument is the highest count. The highest count will decrement to the lowest over the course of the loop automatically
-
-    ##### While loop: 
-    Defined via the keyword `while`, then () with the first argument is the lowest count and the second argument is the highest count. The user has to choose how to decrement the counter within the loop body. Then it is ended with a : and the body is indicated via spacing
-
-
-    #### C++
-    ```
-    // For loop: Initializes, checks condition, and increments
-    for (int i = 0; i < 5; i++) {
-        std::cout << i << "\n";
+    // Method:
+    // A function that belongs to the Car class.
+    //
+    // This method accesses the object's stored data and prints it.
+    void display_info() {
+        std::cout << "Car: " << brand
+                  << ", Year: " << year
+                  << std::endl;
     }
-
-    // While loop: Runs as long as the condition is true
-    int count = 0;
-    while (count < 5) {
-        std::cout << count << "\n";
-        count++;
-    }
-    ```
-
-    Loops in C++ include the for loop, the while loop, and the do-while loop
-
-    ##### For loop: 
-    Defined via the keyword `for`, then in () separated by ; the variable that will be the counter, the condition for when it should exit the loop, then the means of change on the counter, then {} disclose the body of the loop
-
-    ##### While loop: 
-    Defined via the keyword `while`, then in () a counter/condition is given that is typically modified within the body of the loop, once satisfied the loop terminates
-
-    ##### Do-While loop: 
-    Defined via the keyword `do` then {} for the body of the loop which usually contains a way to modify the loop counter, then a while keyword, then in () a counter/condition that terminates the loop once satisfied. This allows the loop to execute once even if the condition is satisfied.
+};  // The semicolon after the class definition is required in C++.
 
 
-    ### Classes
+int main() {
 
-    #### Python
-    ```
-    class Car:
-        # The constructor runs automatically whenever a new Car object is created.
-        # "self" refers to the specific Car object being created.
-        # "brand: str" and "year: int" are type hints telling us what kind
-        # of values we expect to receive.
-        def __init__(self, brand: str, year: int):
+    // Create a Car object named "my_car."
+    //
+    // "Toyota" is passed to the constructor's "b" parameter.
+    // 2024 is passed to the constructor's "y" parameter.
+    //
+    // The constructor then stores those values inside my_car.
+    Car my_car("Toyota", 2024);
 
-            # Store the brand inside this particular Car object.
-            # "self.brand" is an instance variable, meaning every Car object
-            # gets its own separate brand value.
-            self.brand = brand
+    // Call the display_info() method belonging to my_car.
+    // This prints the car's stored brand and year.
+    my_car.display_info();
 
-            # The double underscore makes this attribute "private-like."
-            # Python uses name mangling here, so it is not intended to be
-            # accessed directly outside of the class.
-            self.__year = year
+    // Return 0 tells the operating system that the program
+    // finished successfully.
+    return 0;
+}
+```
 
-        # A method is a function that belongs to a class.
-        # "self" allows this method to access data belonging to the object
-        # that called it.
-        def display_info(self):
-
-            # Access the object's brand and year and display them.
-            # The f-string lets us insert variable values directly into the text.
-            print(f"Car: {self.brand}, Year: {self.__year}")
-
-
-    # Create a new Car object.
-    # "Toyota" is passed to the "brand" parameter.
-    # 2024 is passed to the "year" parameter.
-    my_car = Car("Toyota", 2024)
-
-    # Call the display_info() method belonging to our Car object.
-    # This prints the information stored inside "my_car."
-    my_car.display_info()
-    ```
-
-    Classes in python are defined via the `class` keyword, then a class name, then a : and then the class body is disclosed via spacing. A constructor for the class can be defined as a function `def __init__(self`,
-
-    #### C++
-    ```
-    #include <iostream>  // Provides std::cout and std::endl for displaying output.
-    #include <string>    // Provides the std::string data type.
-
-    class Car {
-    private:
-        // This variable stores the year of the car.
-        // "private" means code outside of the Car class cannot directly
-        // access this variable.
-        int year;
-
-    public:
-        // This variable stores the brand of the car.
-        // "public" means code outside of the class CAN directly access it.
-        std::string brand;
-
-        // Constructor:
-        // This function automatically runs when a new Car object is created.
-        //
-        // "b" receives the car's brand.
-        // "y" receives the car's year.
-        //
-        // The constructor then stores those values in the object's
-        // "brand" and "year" variables.
-        Car(std::string b, int y) {
-            brand = b;
-            year = y;
-        }
-
-        // Method:
-        // A function that belongs to the Car class.
-        //
-        // This method accesses the object's stored data and prints it.
-        void display_info() {
-            std::cout << "Car: " << brand
-                      << ", Year: " << year
-                      << std::endl;
-        }
-    };  // The semicolon after the class definition is required in C++.
-
-
-    int main() {
-
-        // Create a Car object named "my_car."
-        //
-        // "Toyota" is passed to the constructor's "b" parameter.
-        // 2024 is passed to the constructor's "y" parameter.
-        //
-        // The constructor then stores those values inside my_car.
-        Car my_car("Toyota", 2024);
-
-        // Call the display_info() method belonging to my_car.
-        // This prints the car's stored brand and year.
-        my_car.display_info();
-
-        // Return 0 tells the operating system that the program
-        // finished successfully.
-        return 0;
-    }
-    ```
-
-    Classes in C++ are defined via the `class` keyword, then a class name, then, within () are arguments to the class with their variable type, then {} denote the body of the class. Then within the body both member variables and member functions can be defined within its public and private tags which disclose which members can be accessed via instantiation of the class. The class can be instantiated as with any other variable type and arguments can be passed in accordance with the classes valid constructors.
+Classes in C++ are defined via the `class` keyword, then a class name, then, within () are arguments to the class with their variable type, then {} denote the body of the class. Then within the body both member variables and member functions can be defined within its public and private tags which disclose which members can be accessed via instantiation of the class. The class can be instantiated as with any other variable type and arguments can be passed in accordance with the classes valid constructors.
 
 ---
 
