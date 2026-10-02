@@ -429,7 +429,8 @@ Buttons are singlet components on the page that can link to content on other pag
 
 ### Drop Downs
 
-```<div class="dropdown">
+```
+<div class="dropdown">
   <button type="button" class="btn btn-primary dropdown-toggle" data-bs-toggle="dropdown">
 	Dropdown button
   </button>
