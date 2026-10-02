@@ -15,9 +15,8 @@ blockquote{
     color: white;
 }
 code{
-    background-color: rgb(43, 43, 43);
+    background-color: black;
 }
-
 
 table {
   border-collapse: collapse;
@@ -60,31 +59,3 @@ tfoot td {
   font-weight: bold;
 }
 
-.markdown-body table {
-  background-color: rgb(43, 43, 43);
-  color: white;
-}
-
-.markdown-body tr,
-.markdown-body tr:nth-child(2n) {
-  background-color: rgb(43, 43, 43);
-}
-
-.markdown-body th,
-.markdown-body td {
-  background-color: rgb(43, 43, 43);
-  border: 1px solid rgb(160 160 160);
-  color: white;
-}
-
-.markdown-body pre,
-.markdown-body .highlight,
-.markdown-body .highlight pre {
-  background-color: rgb(43, 43, 43);
-  color: white;
-}
-
-.markdown-body pre code {
-  background-color: transparent;
-  color: white;
-}
