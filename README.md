@@ -13,7 +13,7 @@ This is the start of our Documentation Page! We are [Aaron](https://github.com/Z
 
 1. <a href="#markdown-cheat-sheet">Markdown Cheat Sheet(Alex)</a>
 2. <a href="#command-line">Command Line(Richard)</a>
-3. <a href="#python-cheat-sheet-comparisons">Python Cheat Sheet Comparisons(Kingston)</a>
+3. <a href="#python-cheat-sheet-comparisons">Python Cheat Sheet Comparisons</a>
    - [C++(Aaron)](#CPlusPlus)
    - [C#(Alex)](#CSharp)
    - [Java(Kingston)](#Java)
