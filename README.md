@@ -816,8 +816,294 @@ Section by Nick Larsen
 
 # HTML:
 
+
 # Accessibility:
 
+### Web Accessibility Cheat Sheet (Do & Don’t)
+
+Designing Inclusive Websites section by Kingston Bautista
+
+# Use Semantic (HTML)
+
+Semantic elements help screen readers understand page structure.
+
+### Don’t
+
+```
+<div class="header">My Website</div>
+<div class="nav">Menu</div>
+<div class="content">Page Content</div>
+```
+
+### Do
+
+```
+<header>My Website</header>
+ 
+<nav>
+#homeHome</a>
+#aboutAbout</a>
+</nav>
+ 
+<main>
+<h1>Page Content</h1>
+</main>
+```
+
+### Why?
+- Improves screen reader navigation
+- Gives meaning to page sections
+- Improves accessibility and SEO
+
+# Add Alternative Text to Images (HTML)
+
+Screen readers read image descriptions aloud.
+
+### Don’t 
+
+```
+dog.jpg
+```
+
+### Do
+
+```
+dog.jpg
+```
+
+# Decorative Images (HTML)
+
+```
+border.png
+```
+
+### Why?
+- Helps users who cannot see images
+- Provides context and meaning
+
+# Create Accessible Links (HTML)
+
+Links should clearly describe their destination.
+
+### Don’t
+
+```
+guide.htmlClick Here</a>
+```
+
+### Do
+
+```
+guide.html
+Read the Accessibility Guide
+</a>
+```
+
+### Why?
+- Screen readers often list links separately
+- Users know where the link goes
+
+# Use Proper Heading Structure (HTML)
+
+Headings create a page outline.
+
+### Do
+
+```
+<h1>Accessibility Guide</h1>
+ 
+<h2>Images</h2>
+ 
+<h3>Alt Text</h3>
+ 
+<h2>Forms</h2>
+```
+
+### Don’t
+
+```
+<h1>Main Topic</h1>
+<h4>Subtopic</h4>
+```
+
+### Why?
+- Helps users navigate quickly
+- Creates a logical reading order
+
+# Ensure Sufficient Color Contrast (CSS)
+
+Text must be easy to see.
+
+### Don’t
+
+```
+color: lightgray;
+background: white;
+```
+
+### Do
+
+```
+color: #222222;
+background: #ffffff;
+```
+
+### Why?
+- Improves readability
+- Helps users with low vision
+
+# Never Use Color Alone (HTML)
+
+Provide another indicator besides color.
+
+### Don’t
+
+```
+<p style="color:red">
+Required field
+</p>
+```
+
+### Do
+
+```
+<p style="color:red">
+* Required field
+</p>
+```
+
+###Why?
+- Helps color-blind users
+- Makes meaning clear to everyone
+
+# Label Form Inputs (HTML)
+
+Every form field should have a label.
+
+### Don’t
+
+```
+<input type="email"
+placeholder="Email Address">
+```
+
+### Do
+
+```
+<label for="email">
+Email Address
+</label>
+
+<input type="email"
+id="email">
+```
+
+### Why?
+- Screen readers identify form fields correctly
+- Easier for all users
+
+# Support Keyboard Navigation (HTML)
+
+Users should be able to use the site without a mouse.
+
+### Do
+
+```
+<button>Submit</button>
+ 
+contact.html
+Contact Us
+</a>
+```
+
+### Don’t
+
+```
+<div onclick="submitForm()">
+Submit
+</div>
+```
+
+### Why?
+- Many users rely on keyboards
+- Supports assistive technology
+
+# Provide Captions and Transcripts (HTML)
+
+Videos should include captions.
+
+### Do
+
+```
+<video controls>
+lesson.mp4
+captions.vtt
+</video>
+```
+
+### Why?
+- Helps deaf and hard-of-hearing users
+- Improves understanding
+
+# Use ARIA When Needed
+
+Accessible Rich Internet Applications (ARIA) add information for assistive technologies.
+
+### Example (HTML)
+
+```
+<button aria-label="Close Menu">
+X
+</button>
+```
+
+Example (HTML)
+
+```
+<input
+aria-required="true">
+```
+
+### Why?
+- Provides additional meaning
+ Helps screen readers interpret custom components
+
+# Make Error Messages Clear (HTML)
+
+Tell users what went wrong and how to fix it.
+
+### Do
+
+```
+<p class="error">
+Email address is required.
+</p>
+```
+
+### Why?
+- Reduces confusion
+- Improves form usability
+
+# Responsive and Flexible Design (CSS)
+
+Users may zoom in or use different devices.
+
+### Do
+
+```
+body {
+font-size: 1rem;
+}
+ 
+.container {
+width: 100%;
+}
+```
+
+### Why?
+- Supports mobile devices
+- Helps users with low vision
+--- 
 # CSS w/ Bootstrap:
 
 ## What is it?
