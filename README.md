@@ -403,6 +403,382 @@ Classes in C++ are defined via the `class` keyword, then a class name, then, wit
 2. <p id="CSharp"><strong>C#</strong></p>
 
 3. <p id="Java"><strong>Java</strong></p>
+---
+# JavaScript To Python Cheat Sheet
+Section by Kingston Bautista
+
+Here is where to find the comparasins for Java and Python
+# Variables and Declaration
+
+### Python
+Variables in Python are declared implicitly by specifying the variable name and assigning a value. Python automatically determines the variable's type.
+
+### Python: Example
+
+```
+name = "John"
+age = 25
+pi = 3.14
+```
+
+### JavaScript
+
+Variables in JavaScript are declared using the keywords let, const, or var, followed by the variable name and an optional value.
+
+### JavaScript Example
+
+```
+JavaScript
+let name = "John";
+const pi = 3.14;
+var age = 25;
+```
+Note!
+- let can be reassigned.
+- const cannot be reassigned after assignment.
+- var is older syntax and is generally avoided in modern JavaScript.
+
+# Headers / Comments
+
+### Python
+Comments in Python are created using the # symbol.
+
+### Python Example
+
+```
+# This is a comment
+
+Multi-line comments are often done using triple quotes.
+Python
+"""
+This is a
+multi-line comment
+"""
+```
+
+### JavaScript
+
+Comments in JavaScript are created using // for a single line and /* */ for multiple lines.
+
+### JavaScript Example 
+
+```
+// Single-line comment
+ 
+/*
+Multi-line
+comment
+*/
+```
+# Libraries
+
+### Python
+
+Libraries in Python are accessed using the import keyword followed by the library name.
+
+- Python
+- im port math
+- import random
+
+You can also import specific functions.
+
+### Python Example
+
+```
+from math import sqrt
+``
+```
+
+### JavaScript
+
+Libraries in JavaScript are typically accessed using the import statement.
+
+### JavaScript Examlpe
+
+```
+import fs from "fs";
+import path from "path";
+```
+
+Or specific functions can be imported.
+
+### JavaScript Example
+
+```
+import { readFile } from "fs";
+```
+
+In older Node.js code, the require() function may be used.
+
+### JavaScript Example
+
+```
+const fs = require("fs");
+```
+
+# Functions
+
+### Python
+
+Functions in Python are defined using the def keyword, followed by the function name and parameters in parentheses. A colon (:) begins the function body, which is determined through indentation.
+
+### Python Example
+
+```
+def greet(name):
+print("Hello", name)
+```
+
+Functions may return values using return.
+
+### Python Example
+
+```
+def add(a, b):
+return a + b
+```
+
+### JavaScript
+
+Functions in JavaScript can be defined using the function keyword or arrow function syntax.
+
+Traditional Function:
+
+### JavaScript Example
+
+```
+function greet(name) {
+console.log("Hello " + name);
+}
+```
+
+Function with Return Value:
+
+### JavaScript Example
+
+```
+function add(a, b) {
+return a + b;
+}
+```
+
+Arrow Function:
+
+### JavaScript Example
+
+```
+const add = (a, b) => {
+return a + b;
+};
+```
+
+# Loops
+
+### Python
+Loops in Python include the for loop and the while loop.
+
+### For Loop
+
+Defined using the for keyword along with range().
+
+### Python Example
+
+```
+for i in range(0, 5):
+print(i)
+
+Output:
+Plain Text
+0
+1
+2
+3
+4
+```
+
+### While Loop
+
+Defined using the while keyword. The user must update the loop variable manually.
+
+### Python Example
+
+```
+count = 0
+ 
+while count < 5:
+print(count)
+count += 1
+```
+
+### JavaScript
+
+Loops in JavaScript include the for, while, and do...while loops.
+
+### For Loop
+
+Defined using the for keyword with initialization, condition, and update sections separated by semicolons.
+
+### JavaScript Example 
+
+```
+for (let i = 0; i < 5; i++) {
+console.log(i);
+}
+```
+
+### While Loop
+
+Defined using the while keyword and a condition.
+
+### JavaScript Examlpe 
+
+```
+let count = 0;
+ 
+while (count < 5) {
+console.log(count);
+count++;
+}
+```
+
+### Do-While Loop
+
+Defined using the do keyword followed by a while condition. The loop runs at least once.
+
+## JavaScript Example
+
+```
+let count = 0;
+ 
+do {
+console.log(count);
+count++;
+} while (count < 5);
+```
+
+# Classes
+
+### Python
+
+Classes in Python are defined using the class keyword followed by a class name and a colon. The body is determined through indentation.
+
+A constructor is defined using the __init__() function.
+### Python Examlpe 
+
+```
+class Student:
+ 
+def __init__(self, name):
+self.name = name
+ 
+def greet(self):
+print("Hello", self.name)
+
+Instantiating a class:
+```
+
+### PythonExample 
+
+```
+student = Student("Alice")
+student.greet()
+```
+
+### JavaScript
+
+Classes in JavaScript are defined using the class keyword followed by a class name. Constructors and methods are placed inside braces {}.
+
+### JavaScript Example
+
+```
+class Student {
+ 
+constructor(name) {
+this.name = name;
+}
+
+greet() {
+console.log("Hello " + this.name);
+}
+}
+Instantiating a class:
+```
+
+### JavaScript Example
+
+```
+const student = new Student("Alice");
+student.greet();
+```
+
+Properties and methods are typically accessed using the dot (.) operator.
+
+# Quick Python → JavaScript Translation Reference
+
+<table>
+      <thead>
+        <tr>
+          <th>JavaScript</th>
+          <th>Python</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>x = 5</td>
+          <td>let x = 5;</td>
+        </tr>
+        <tr>
+          <td>name = "Bob"</td>
+          <td>let name = "Bob";</td>
+        </tr>
+         <tr>
+          <td>print(x)</td>
+          <td>console.log(x);</td>
+        </tr>
+         <tr>
+          <td>input()</td>
+          <td>prompt()</td>
+        </tr>
+        <tr>
+          <td>def func():</td>
+          <td>function func () {}</td>
+        </tr>
+        <tr>
+          <td>True</td>
+          <td>true</td>
+        </tr>
+        <tr>
+          <td>False</td>
+          <td>false</td>
+        </tr>
+        <tr>
+          <td>and</td>
+          <td>&&</td>
+        </tr>
+        <tr>
+          <td>or</td>
+          <td>`</td>
+        </tr>
+        <tr>
+          <td>not</td>
+          <td>!</td>
+        </tr>
+        <tr>
+          <td>len(list)</td>
+          <td>array.length</td>
+        </tr>
+        <tr>
+          <td>for i in range(5)</td>
+          <td>for(let i = 0; i < 5; i++)</td>
+        </tr>
+        <tr>
+          <td>class Example:</td>
+          <td>class Example {}</td>
+        </tr>
+      </tbody>
+   </table>
+
+---
 
 # Django Overview:
 
