@@ -16,7 +16,7 @@ This is the start of our Documentation Page! We are [Aaron](https://github.com/Z
 3. <a href="#python-cheat-sheet-comparisons">Python Cheat Sheet Comparisons</a>
    - [C++(Aaron)](#CPlusPlus)
    - [C#(Alex)](#CSharp)
-   - [Java(Kingston)](#Java)
+   - [JavaScript(Kingston)](#JavaScript)
 4. <a href="#django-overview">Django Overview &amp; (Nick)</a>
 5. <a href="#setting-up-django">Setting Up Django &amp; (Nick)</a>
 6. <a href="#gitgithub-development-environment">Git/GitHub Development Environment(Alex)</a>
@@ -402,7 +402,7 @@ Classes in C++ are defined via the `class` keyword, then a class name, then, wit
 
 2. <p id="CSharp"><strong>C#</strong></p>
 
-3. <p id="Java"><strong>Java</strong></p>
+3. <p id="JavaScript"><strong>JavaScript</strong></p>
 ---
 # JavaScript To Python Cheat Sheet
 Section by Kingston Bautista
