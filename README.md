@@ -23,7 +23,7 @@ This is the start of our Documentation Page! We are [Aaron](https://github.com/Z
 7. <a href="#html">HTML(Admir)</a>
 8. <a href="#accessibility">Accessibility(Kingston)</a>
 9. <a href="#css-w-bootstrap">CSS w/ Bootstrap(Aaron)</a>
-10. <a href="#database-migrations">Database &amp; Migrations(Aaron)</a>
+10. <a href="#database-migrations">Database Migrations(Aaron)</a>
 11. <a href="#python-virtual-environments">Python Virtual Environment(Arieana)</a>
 12. <a href="#python-packages--dependencies">Python Packages &amp; Dependencies(Alex)</a>
 
