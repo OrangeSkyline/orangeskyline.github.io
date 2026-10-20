@@ -1284,10 +1284,6 @@ Adds a CSS transition and animation effect when sliding from one item to the nex
 
 Bootstrap includes built-in accessibility features to help make websites usable for people with disabilities. Use semantic HTML, proper labels, and Bootstraps accessibility classes and attributes where needed.
 
-# Python Virtual Environments:
-
-# Python Packages & Dependencies:
-
 # Database & Migrations
 
 ## Database
@@ -1302,3 +1298,8 @@ Migrations are a tool used in the Django project in order to translate our defin
 python manage.py migrate
 ```
 As long as an appropriate model is defined on models.py, it can be migrated. Though extra care should be taken to make sure the model is also defined in the admin.py file. The migration then enables the model to be represented in the form of a database table with its member fields represented as table columns and records to start being kept.
+
+# Python Virtual Environments:
+
+# Python Packages & Dependencies:
+
