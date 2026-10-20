@@ -1289,3 +1289,16 @@ Bootstrap includes built-in accessibility features to help make websites usable 
 # Python Packages & Dependencies:
 
 # Database & Migrations
+
+## Database
+
+The database is a collection of data. The data is defined in the models that we create as python classes. We use these classes to define the types and perameters of the data we want stored in the table. After migation the tables are created and then records, or individual instances of the models class, and thier information can be stored in the database. 
+
+## Migrations
+
+Migrations are a tool used in the Django project in order to translate our defined models into an actual usable and interactable database. Django handles this process almost entirely on its end, all that's needed from the user is to be within the python environment and to enter
+
+```
+python manage.py migrate
+```
+As long as an appropriate model is defined on models.py, it can be migrated. Though extra care should be taken to make sure the model is also defined in the admin.py file. The migration then enables the model to be represented in the form of a database table with its member fields represented as table columns and records to start being kept.
